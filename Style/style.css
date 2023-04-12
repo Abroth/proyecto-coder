@@ -1,0 +1,64 @@
+h1{
+
+    resize: both;
+    overflow: auto;
+
+    color: #221fd6;
+    background-color: #14d85f;
+    /*height: 500px;*/
+    text-align: center;
+    background-image: url("../img/messi.jpg ");
+
+    /* repeticion del background - para que no repita la imagen */
+    background-repeat: no-repeat;
+
+    background-position: center ;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.parrafo{
+    /* familia tipografica */
+    font-family: cursive;
+
+    /* Tamaño tipografico */
+    font-size: 15px;
+
+    /* Peso tipografico 
+    100-900
+    normal - bold
+    */
+    font-weight: atuo;
+
+    /* Estilo tipografico */
+    font-style: italic;
+
+    /* Alineacion del texto 
+    left, right, center, justfy(quita los espacios)
+    */
+    text-align: justify;
+
+    /* Text decoration
+    none - Underline - overline - line-through
+    
+    */
+    text-decoration: auto;
+
+    /* Espacio entre letras */
+    letter-spacing: 0px;
+
+    /* Espacio entre palabras */
+    word-spacing: auto;
+
+    /* Interlineado */
+    line-height: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
